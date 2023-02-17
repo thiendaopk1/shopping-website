@@ -1,4 +1,169 @@
+:root {
+
+}
+/*    iframe     */
+.header-iframe {
+    height: 88px;
+    width: 1330px;
+}
+.footer-iframe {
+    height: 486px;
+    width: 1330px;
+}
+/*    footer     */
+.footer {
+    position: absolute;
+    width: 1366px;
+    height: 477px;
+    left: 0px;
+    top: 1399px;
+}
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -1rem;
+    flex-flow: row wrap;
+}
+.footer-column {
+    flex: 1 0;
+    background-color: green;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+/* .footer-column {
+    position: absolute;
+    left: 4.61%;
+    right: 87.7%;
+    top: 14.68%;
+    bottom: 41.3%;
+    
+} */
+/* #1 .footer-column {
+    position: absolute;
+    left: 4.61%;
+    right: 87.7%;
+    top: 14.68%;
+    bottom: 41.3%;
+
+}
+#2 .footer-column {
+    position: absolute;
+    left: 27.67%;
+    right: 65.08%;
+    top: 14.68%;
+    bottom: 35.43%;
+}
+#3 .footer-column {
+    position: absolute;
+    left: 50.73%;
+    right: 42.02%;
+    top: 14.26%;
+    bottom: 41.72%;
+}
+#4 .footer-column {
+    position: absolute;
+    left: 73.79%;
+    right: 16.4%;
+    top: 14.68%;
+    bottom: 49.93%;
+} */
+
+/*   home page   */
+
 .hompage {
     background-color: lightgoldenrodyellow;
     text-align: center;
+}
+/*     Header     */
+.header {
+    height: 88px;
+    width: 1330px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    background: #FFFFFF;
+}
+.header-left {
+    height: 88px;
+    width: 683px;
+    float: left;
+}
+.header-right {
+    float: right;
+    height: 34.66667175292969px;
+    width: 126px;
+    left: 200px;
+    top: 10px;
+    border-radius: 0px;
+    
+    
+}
+
+.header-logo {
+    float: left;
+    height: 44px;
+    width: 156px;
+    left: 65px;
+    top: 22px;
+    border-radius: nullpx;
+
+}
+.header-text {
+    height: 25px;
+    width: 252px;
+    left: 316px;
+    top: 19px;
+    border-radius: nullpx;
+
+    position: absolute;
+}
+
+
+ /*   Checkout    */
+.checkout {
+    height: 1885px;
+    width: 1366px;
+    left: 10205px;
+    top: -2733px;
+    border-radius: 0px;
+    background: #FFFFFF;
+}
+.page-map {
+    height: 22px;
+    width: 435px;
+    left: 63px;
+    top: 166px;
+    border-radius: nullpx;
+
+    position: absolute;
+    width: 435px;
+    height: 22px;
+    left: 63px;
+    top: 166px;
+
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 17px;
+    text-transform: uppercase;
+
+    color: #888888;
+
+}
+
+
+.checkout-title {
+    height: 48px;
+    width: 235px;
+    left: 0px;
+    top: 143px;
+    border-radius: nullpx;
+
 }
