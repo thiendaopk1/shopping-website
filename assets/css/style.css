@@ -1,4 +1,36 @@
-.hompage {
-    background-color: lightgoldenrodyellow;
-    text-align: center;
+.top-home-image{
+    position: relative;
+width: 1366px;
+height: 1732px;
+background: #FFFFFF
+
+}
+.new-product{
+    position: absolute;
+width: 1366px;
+height: 1252px;
+left: 0px;
+top: 674px;
+}
+.base-icon{
+    position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+background: #FFFFFF;
+}
+.Promo{
+    position: absolute;
+width: 1240px;
+height: 429px;
+left: 63px;
+top: 2082px;
+}
+.Best-selling{
+    position: absolute;
+width: 1366px;
+height: 920px;
+left: 0px;
+top: 2490px;
 }
