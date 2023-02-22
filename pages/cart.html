@@ -4,48 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/shopping-website/assets/css/grid.css">
+    <link rel="stylesheet" href="/shopping-website/assets/css/cart.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
     <title>Document</title>
 </head>
 <body>
-    <div class="hero">
-        <td>Home</td>/
-        <td>Shopping cart</td>
-    </div>
-    <div class="cart-table">
-        <header>
-            <td>Product</td>
-            <td>Price</td>
-            <td>Quantity</td>
-            <td>Total</td>
-        </header>
-        <div class="row-1">
-            <td><a href=""><svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.66457 5.39628L10.8488 1.23804L9.92957 0.324528L5.74535 4.48277L1.60777 0.370884L0.688545 1.28439L4.82613 5.39628L0.737373 9.45963L1.65659 10.3731L5.74535 6.30979L9.88075 10.4195L10.8 9.50599L6.66457 5.39628Z" fill="#BEBEBE"/>
-                </svg>
-            </a></td>
-            <td><img src="images/img_2.jpg" alt=""></td>
-            <td><p>Plain White Shirt</p></td>
-            <td><p>$59.00</p></td>
-            <td><input type="text"></td>
-            <td><p>$59.00</p></td>
-
+    <iframe class="header-iframe" src="../pages/header.html" frameborder="0"></iframe>
+    <div class="cart">
+        <div class="hero row">
+            <a href="">Home</a>
+            <p>/</p>
+            <p>Shopping cart</p>
         </div>
-        <div class="coupon">
-            <h1>Cart total</h1>
-            <div>
-                <td>subtotal</td>
-                <td>$59.00</td>
+        <div class="cart-table grid">
+            <div class="cart-header row">
+                <p class="cart-header-title l-o-3">Product</p>
+                <p class="cart-header-title l-o-2">Price</p>
+                <p class="cart-header-title l-o-2">Quantity</p>
+                <p class="cart-header-title l-o-2">Total</p>
             </div>
-            <div>
-                <td>Shipping Free</td>
-                <td>FREE!!!</td>
+            <hr class="line-1 row">
+            <div class="row-1 row">
+                <a class="cart-close l-o-1" href="/shopping-website/assets/icons/cart-icons/close.svg"></a>
+                <img class="Product-image l-o-1 " src="../assets/images/single-product-woman/Plain-White-Shirt.png" alt="Product-image">
+                <p class="product-name l-o-1 ">Plain White Shirt</p>
+                <p class="product-cost l-o-2 ">$59.00</p>
+                <input class="cart-input l-o-2 " type="text" value="1">
+                <p class=" cart-total l-o-2 ">$59.00</p>
             </div>
-            <div>
-                <td>total</td>
-                <td>$59.00</td>
+            <hr class="line-2 row">
+            <div class="coupon grid">
+                <h1 class="">Cart total</h1>
+                <div class="">
+                    <p class="">subtotal</p>
+                    <p class="">$59.00</p>
+                </div>
+                <div class="">
+                    <p class="">Shipping Free</p>
+                    <p class="">FREE!!!</p>
+                </div>
+                <div class="">
+                    <p class="">total</p>
+                    <p class="">$59.00</p>
+                </div>
+                <button class="">Proceed to Checkout</button>
             </div>
-            <button>Proceed to Checkout</button>
         </div>
     </div>
+    <iframe class="footer-iframe" src="./footer.html" frameborder="0"></iframe>
 </body>
 </html>
