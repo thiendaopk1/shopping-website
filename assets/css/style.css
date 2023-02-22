@@ -4,13 +4,26 @@
 
 /*    iframe     */
 .header-iframe {
+    display: fixed;
     height: 88px;
-    width: 1330px;
+    width: 100%;
+}
+@media(min-width: 740px) {
+    .footer-iframe {
+        height: 1000px;
+        width: 100%;
+    }
+}
+@media(min-width: 1113px){
+    .footer-iframe {
+        height: 486px;
+        width: 100%;    
+    }
 }
 
 /*    footer     */
 .footer {
-    margin: 20px; 
+    margin-left: 20px; 
 }
 .footer-title {
     font-family: 'Arimo';
