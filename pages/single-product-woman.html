@@ -4,27 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/shopping-website/assets/css/grid.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/single-product-woman.css">
     <title>Document</title>
 </head>
 <body>
-    
-    <div class="single-product-woman">
-        <iframe src="header.html" frameborder="0"></iframe>
-        <div class="single-product-content">
-            <div class="single-product-content-left">
-            <td><img src="/shopping-website/assets/images/single-product-woman/Plain-White-Shirt.png"
-                 alt="Woman" width="550" height="685"></td>
-                <div class="page-map">
-                <a>Home</a>/
-                <a>Shop</a>/
-                <a>Women</a>/
-                <a>shop</a>
-                </div>
+    <iframe class="header-iframe" src="header.html" frameborder="0"></iframe>
+    <div class="single-product-woman grid wide">
+        <div class="single-product-content row">
+            <div class="single-product-content-left l-6" data="24%">
+            <img class="product-image" src="/shopping-website/assets/images/single-product-woman/Plain-White-Shirt.png"
+                 alt="Woman" width="550" height="685">
+                 
             </div>
-            <div class="single-product-content-right">
-                <div>
-                    <h1>Plain White Shirt</h1>
-                </div>
+            <div class="single-product-content-right l-6">
+                <div class="page-map row">
+                    <a href="page-link">Home</a>/
+                    <a href="page-link">Shop</a>/
+                    <a href="page-link">Women</a>/
+                    <a class="page-present">Shop</a>
+                    </div>
+                    <h1 class="product-title">Plain White Shirt</h1>
                 <div>
                     <td><img src="images/star.jpg" alt=""></td>
                     <td><img src="images/star.jpg" alt=""></td>
@@ -34,8 +35,8 @@
                     <td>(15)</td>
                 </div>
                 <table>
-                    <td><h2>$69.00</h2></td>
-                    <td><h2>$59.00</h2></td>
+                    <h2>$69.00</h2>
+                    <h2>$59.00</h2>
                 </table>
                 <div>
                     <p>Select size</p>
@@ -47,33 +48,13 @@
                         Tags: Modern, Design, cotton
                         </p>
                 </div>
-            </div>
-            
-            <div class="contact">
-                <td><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="16" cy="16" r="16" fill="#F1F1F1"/>
-                    </svg>
-                </td>
-                <td>
-                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="16" cy="16" r="16" fill="#F1F1F1"/>
-                        </svg>
-                </td>
-                <td>
-                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="16" cy="16" r="16" fill="#F1F1F1"/>
-                        </svg>
-                </td>
-                <td>
-                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="16" cy="16" r="16" fill="#F1F1F1"/>
-                        </svg>
-                </td>
-                <td><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="16" cy="16" r="16" fill="#F1F1F1"/>
-                    <path d="M22.5 10H9.5C8.65625 10 8 10.6875 8 11.5V20.5C8 21.3438 8.65625 22 9.5 22H22.5C23.3125 22 24 21.3438 24 20.5V11.5C24 10.6875 23.3125 10 22.5 10ZM22.5 11.5V12.7812C21.7812 13.375 20.6562 14.25 18.2812 16.125C17.75 16.5312 16.7188 17.5312 16 17.5C15.25 17.5312 14.2188 16.5312 13.6875 16.125C11.3125 14.25 10.1875 13.375 9.5 12.7812V11.5H22.5ZM9.5 20.5V14.7188C10.1875 15.2812 11.2188 16.0938 12.75 17.3125C13.4375 17.8438 14.6562 19.0312 16 19C17.3125 19.0312 18.5 17.8438 19.2188 17.3125C20.75 16.0938 21.7812 15.2812 22.5 14.7188V20.5H9.5Z" fill="#818181"/>
-                    </svg>
-                </td>
+                <div class="contact">
+                    <img src="../assets/icons/single-product-woman/contact-1.svg" alt="">
+                    <img src="../assets/icons/single-product-woman/contact-2.svg" alt="">
+                    <img src="../assets/icons/single-product-woman/contact-3.svg" alt="">
+                    <img src="../assets/icons/single-product-woman/contact-4.svg" alt="">
+                    <img src="../assets/icons/single-product-woman/contact-5.svg" alt="">
+                </div>
             </div>
             <div class="description">
                 <td>
@@ -98,7 +79,7 @@
                 </div>
             </div>
         </div>
-        <iframe src="footer.html" frameborder="0"></iframe>
     </div>
+    <iframe class="footer-iframe grid wide" src="footer.html" frameborder="0"></iframe>
 </body>
 </html>
