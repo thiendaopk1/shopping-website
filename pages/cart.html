@@ -12,43 +12,46 @@
 <body>
     <iframe class="header-iframe" src="../pages/header.html" frameborder="0"></iframe>
     <div class="cart">
-        <div class="hero row">
-            <a href="">Home</a>
-            <p>/</p>
-            <p>Shopping cart</p>
+        <div class="hero ">
+            <a class="page-map" href="">Home</a>
+            <p class="page-map">/</p>
+            <p class="page-map">Shopping cart</p>
         </div>
-        <div class="cart-table grid">
+        <div class="cart-table">
+            <div class="cart-info grid wide">
             <div class="cart-header row">
-                <p class="cart-header-title l-o-3">Product</p>
-                <p class="cart-header-title l-o-2">Price</p>
-                <p class="cart-header-title l-o-2">Quantity</p>
-                <p class="cart-header-title l-o-2">Total</p>
+                <p class="cart-header-title l-1 l-o-3 ">Product</p>
+                <p class="cart-header-title l-2 l-o-2 ">Price</p>
+                <p class="cart-header-title l-2 ">Quantity</p>
+                <p class="cart-header-title l-2 ">Total</p>
             </div>
-            <hr class="line-1 row">
+            <hr class="line-1">
+        
             <div class="row-1 row">
-                <a class="cart-close l-o-1" href="/shopping-website/assets/icons/cart-icons/close.svg"></a>
-                <img class="Product-image l-o-1 " src="../assets/images/single-product-woman/Plain-White-Shirt.png" alt="Product-image">
-                <p class="product-name l-o-1 ">Plain White Shirt</p>
-                <p class="product-cost l-o-2 ">$59.00</p>
-                <input class="cart-input l-o-2 " type="text" value="1">
-                <p class=" cart-total l-o-2 ">$59.00</p>
+                <a class="cart-close l-1 l-o-1 m-o-1 m-1" href="/shopping-website/assets/icons/cart-icons/close.svg"></a>
+                <img class="Product-image l-1 l-o-2  m-1 " src="../assets/images/single-product-woman/Plain-White-Shirt.png" alt="Product-image">
+                <p class="product-name l-2 l-o-3 ">Plain White Shirt</p>
+                <p class="product-cost l-3 l-o-6  ">$59.00</p>
+                <input class="cart-input l-3 l-o-8 m-1" type="text" value="1">
+                <p class=" cart-total l-2 l-o-10 ">$59.00</p>
             </div>
-            <hr class="line-2 row">
-            <div class="coupon grid">
-                <h1 class="">Cart total</h1>
-                <div class="">
-                    <p class="">subtotal</p>
-                    <p class="">$59.00</p>
+            <hr class="line-2">
+        </div>
+            <div class="coupon grid wide">
+                <h1 class="cart-total-title ">Cart total</h1>
+                <div class="cart-column-1 row">
+                    <p class="cart-total-info c-1 c-o-1">subtotal</p>
+                    <p class="cart-total-info c-1 c-o-7">$59.00</p>
                 </div>
-                <div class="">
-                    <p class="">Shipping Free</p>
-                    <p class="">FREE!!!</p>
+                <div class="cart-column-2 row">
+                    <p class="cart-total-info c-3 c-o-1">Shipping Free</p>
+                    <p class="cart-total-info c-1 c-o-5">FREE!!!</p>
                 </div>
-                <div class="">
-                    <p class="">total</p>
-                    <p class="">$59.00</p>
+                <div class="cart-column-3 row">
+                    <p class="cart-total-info c-1 c-o-1">total</p>
+                    <p class="cart-total-info c-1 c-o-7">$59.00</p>
                 </div>
-                <button class="">Proceed to Checkout</button>
+                <button class="cart-button ">PROCEED TO CHECKOUT</button>
             </div>
         </div>
     </div>
