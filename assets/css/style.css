@@ -8,13 +8,13 @@
     height: 88px;
     width: 100%;
 }
-@media(min-width: 740px) {
+@media(min-width: 320px) {
     .footer-iframe {
         height: 1000px;
         width: 100%;
     }
 }
-@media(min-width: 1113px){
+@media(min-width: 1024px) and (max-width: 1239px){
     .footer-iframe {
         height: 486px;
         width: 100%;    
@@ -137,4 +137,3 @@
 
 
 
- /*   Checkout    */
