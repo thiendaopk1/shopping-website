@@ -1,7 +1,7 @@
 .cart {
     position: relative;
-    width: 1240px;
-    height: 1386px;
+    width: 1100px;
+    height: 900px;
     background: #FFFFFF;
     left: 10px;
 }
@@ -74,6 +74,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 25px;
+    bottom: 15px;
 }
 .product-cost {
     position: absolute;
@@ -92,6 +93,7 @@
     height: 42px;
     background: #FFFFFF;
     border: 2px solid #EBEBEB;
+    top:5px
 }
 .cart-total {
     position: absolute;
